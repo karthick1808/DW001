@@ -1,0 +1,77 @@
+Cloud : Module Table of Contents						
+Module Name: AWS Cloud + Data Engineering						
+Topic #	Coverage of Each Module					
+	Topic  Name	Learning Objective #	Learning Objective for the Topics	Knowledge & Hands-on	Estimated Duration In Hrs for Hands-on	Total Estimated Duration In Mins
+1	AWS Overview					
+		1	Introduction to AWS, Usage, core concepts such as elasticity, scalability, virtualization	Knowledge (High level)	16	
+		2	IaaS, PaaS, SaaS			
+		3	VPC, Subnet, Security Group, NACL, NAT Instance			
+		4	Overview of DW and Data Lake related services, such as, EMR, Glue, Redshift, Athena			
+		5	Region, Availability Zone, Edge Locations			
+		6	IAM user, roles, policies			
+			Estimated Time Duration for this Topic  		16	960
+2	EC2					
+		1	When and why needed	Knowledge (High level)	4	
+		2	EC2 instance type, storage etc			
+			Estimated Time Duration for this Topic  		4	240
+3	Hadoop					
+		1	Why Big data ?	Knowledge (High level)	4	
+		2	Hadoop Architecture, Name node, Secondary name node, Data Nodes			
+		3	Introduction to storage(HDFS) and Processing(MapReduce), Mapper, Reducer			
+			Estimated Time Duration for this Topic  		4	240
+4	Spark/Scala					
+			Introduction to Spark and Scala	Knowledge + Hands on	24	
+			Transformations			
+			Actions			
+			Querying Data with the Data Frames			
+			Improving Type Safety with Data Sets			
+			Processing Data with the Streaming API			
+			Structured Streaming			
+			Spark SQL			
+			Spark Job Memory Parameters			
+			Estimated Time Duration for this Topic  		24	1440
+5	EMR					
+			Introduction to EMR, Types of Nodes	Knowledge	8	
+			Deploying and Monitoring Spark Jobs in EMR.	Hands On		
+			Auto scaling 	Hands On		
+			Boot Strap Actions	Hands On		
+			Estimated Time Duration for this Topic  		8	480
+6	Kinesis					
+			Kinesis Streaming and Kinesis Firehose	Knowledge + Hands on	16	
+			Estimated Time Duration for this Topic  		16	960
+7	S3					
+			Core concepts of object store	Knowledge (High level)	4	
+			S3-storage class, Lifecycle, replication	Knowledge		
+			S3 file handling using Boto3	Hands On		
+			Estimated Time Duration for this Topic  		4	240
+8	DynamoDB					
+			Detailed architecture, NoSQL concepts	Knowledge	12	
+			DynamoDB data structures, data modelling/design, organization, Key etc	Knowledge + Hands on		
+			CRUD, Query, Scan. Detailed level	Hands On		
+			Case Study on a sample schema	Hands On		
+			Estimated Time Duration for this Topic  		12	720
+9	Lambda					
+			Handling S3 events	Knowledge + Hands on	12	
+			Handling DynamoDB events	Hands On		
+			Handling SQS, SNS events along with DynamoDB, S3 events	Hands On		
+			Parsing S3 source files into different format	Hands On		
+			Estimated Time Duration for this Topic  		12	720
+10	Redshift					
+			Redshift Architecture, Building blocks	Knowledge	12	
+			Redshift data structure, Key, Compression	Knowledge		
+			Populating Redshift, Copying data from S3	Hands On		
+			Connecting, Querying and Consuming data using Python	Hands On		
+			Estimated Time Duration for this Topic  		12	720
+11	Glue					
+			Introduction to Glue	Knowledge	16	
+			Create a ETL Workflow in Glue	Hands On		
+			Writing Custom Script in Glue	Hands On		
+			Glue as Metadata for Hive	Hands On		
+			Estimated Time Duration for this Topic  		16	960
+12	Case Study					
+	Need AWS environment to perform hands-on	1	Case Study - Real-time case study using above mentioned services on Pyspark/Python platform	Hands On	20	
+			Estimated Time Duration for this Topic  		20	1200
+						
+		Total Time Duration 			148	8880
+		Total Time Duration (In Days) - With out Case Study			128	7680
+		Total Time Duration (In Days)			19	
